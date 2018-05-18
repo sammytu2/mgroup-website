@@ -10,13 +10,22 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	<link rel="stylesheet" href="css/flickity.css" media="screen">
+
+	<!-- JavaScript -->
+	<script src="js/flickity.pkgd.min.js"></script>
 </head>
 
 <body>
 
 	<div class="top-header">
-		<a id="logo-container" href="#" class="brand-logo">Marwaha</a>
-		<ul class="right hide-on-med-and-down">
+		<!-- <a id="logo-container" href="#" class="brand-logo">Marwaha</a> -->
+		<div class="mgrouplogo">
+			<a href="index.html">
+				<img src="background1.jpg" alt="Mgroup" width="175" height="100 " border = "0 ">
+			</a>
+		</div>
+		<ul id="topnav" class="right hide-on-med-and-down">
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Company</a></li>
 			<li><a href="#">Business</a></li>
@@ -26,29 +35,12 @@
 			<li><a href="#">Our Offices</a></li>
 		</ul>
 
-		<ul id="nav-mobile" class="sidenav">
-			<li><a href="#">Navbar Link</a></li>
-		</ul>
-		<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 	</div>
 
-
-	<div id="index-banner" class="parallax-container">
-		<div class="section no-pad-bot">
-			<div class="container">
-				<br><br>
-				<h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-				<div class="row center">
-					<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-				</div>
-				<div class="row center">
-					<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-				</div>
-				<br><br>
-
-			</div>
-		</div>
-		<div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+	<div class="carousel" data-flickity='{ "pageDots": true, "wrapAround": true, "autoPlay": 8000}'>
+		<div class="carousel-cell"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+		<div class="carousel-cell"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+		<div class="carousel-cell"><img src="background3.jpg" alt="Unsplashed background img 31"></div>
 	</div>
 
 
