@@ -100,3 +100,37 @@ ul#topnav a:hover {
     top: 0;
     z-index: 1;
 }
+
+section {
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.section-company {
+    line-height: 1.5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.company-image, .company-information {
+    flex: 1 400px;
+}
+
+.company-image {
+
+}
+
+.company-information {
+    margin-right: 2.5%;
+}
+
+#sect-company-header, #sect-company-logo{
+    text-display: center;
+}
