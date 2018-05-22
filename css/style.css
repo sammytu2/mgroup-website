@@ -100,28 +100,37 @@ ul#topnav a:hover {
     top: 0;
     z-index: 1;
 }
-.focusBox{
-  z-index: -1;
-      margin-top: 60px;
-      margin-left: 60px;
-height: 175px;
-width:250px;
-  background-color: red;
-}
-div.focusTextBox{
+
+section {
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
 }
 
-h1.focusTitle{
-  padding-top: 20px;
-  text-align: center;
-  height: 50px;
-  width:250px;
-  font-size: :2.2rem !important;
+.section-company {
+    line-height: 1.5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
-h2.focusSubHeading{
-  text-align: center;
-  font-size: 14px;
-  margin-top: 20px;
-  height: 180px;
-  width:250px;
+
+.company-image, .company-information {
+    flex: 1 400px;
+}
+
+.company-image {
+
+}
+
+.company-information {
+    margin-right: 2.5%;
+}
+
+#sect-company-header, #sect-company-logo{
+    text-display: center;
 }
