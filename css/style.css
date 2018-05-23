@@ -192,3 +192,10 @@ section {
     margin-top: 0;
     margin-bottom: 0;
 }
+.KeyMembers-header{
+text-align: center;
+margin-top: -55px;
+}
+.KeyMembers-members{
+text-align: center;
+}
