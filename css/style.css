@@ -106,16 +106,24 @@ ul#topnav a:hover {
     margin-left: 100px;
     height: 175px;
     width: 250px;
-    /* background-color: red; */
     position: fixed;
-    z-index: 0;
+
     border-bottom: 300px solid red;
     border-right: 50px solid transparent;
     transform: rotateZ(-90deg);
+    z-index:0;
 }
 
 .focusTextBox h1 {
     font-size: 2.2rem;
+    margin-top: -300px;
+
+}
+.focusTextBox{
+  margin-left: 100px;
+  margin-top: 50px;
+  z-index: 1;
+  position: fixed;
 }
 
 .focusTitle h1 {
@@ -135,6 +143,7 @@ h2.focusSubHeading {
     margin-top: 20px;
     height: 180px;
     width: 250px;
+    z-index: 1;
 }
 
 section {
