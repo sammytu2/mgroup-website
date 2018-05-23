@@ -197,5 +197,16 @@ text-align: center;
 margin-top: -55px;
 }
 .KeyMembers-members{
+
 text-align: center;
 }
+.member:hover{
+  border-radius: 25px;
+background-color:hsl(0, 0%, 66%);
+}
+.member:active{
+  background-color: blue;
+}
+
+
+
